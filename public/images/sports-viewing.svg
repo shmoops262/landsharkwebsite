@@ -1,0 +1,51 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#0c4a6e"/>
+  
+  <!-- Wall -->
+  <rect x="50" y="50" width="700" height="500" fill="#1e3a8a"/>
+  
+  <!-- TV 1 (large center) -->
+  <rect x="250" y="100" width="300" height="200" rx="5" fill="#1e1e1e" stroke="#0f0f0f" strokeWidth="10"/>
+  <rect x="260" y="110" width="280" height="180" rx="2" fill="#065f46"/>
+  
+  <!-- TV 2 (top left) -->
+  <rect x="100" y="100" width="120" height="80" rx="5" fill="#1e1e1e" stroke="#0f0f0f" strokeWidth="5"/>
+  <rect x="105" y="105" width="110" height="70" rx="2" fill="#7f1d1d"/>
+  
+  <!-- TV 3 (top right) -->
+  <rect x="580" y="100" width="120" height="80" rx="5" fill="#1e1e1e" stroke="#0f0f0f" strokeWidth="5"/>
+  <rect x="585" y="105" width="110" height="70" rx="2" fill="#1e3a8a"/>
+  
+  <!-- TV 4 (bottom left) -->
+  <rect x="100" y="400" width="150" height="100" rx="5" fill="#1e1e1e" stroke="#0f0f0f" strokeWidth="5"/>
+  <rect x="105" y="405" width="140" height="90" rx="2" fill="#881337"/>
+  
+  <!-- TV 5 (bottom right) -->
+  <rect x="550" y="400" width="150" height="100" rx="5" fill="#1e1e1e" stroke="#0f0f0f" strokeWidth="5"/>
+  <rect x="555" y="405" width="140" height="90" rx="2" fill="#0e7490"/>
+  
+  <!-- TV 6 (middle left) -->
+  <rect x="100" y="250" width="100" height="70" rx="5" fill="#1e1e1e" stroke="#0f0f0f" strokeWidth="5"/>
+  <rect x="105" y="255" width="90" height="60" rx="2" fill="#3f6212"/>
+  
+  <!-- TV 7 (middle right) -->
+  <rect x="600" y="250" width="100" height="70" rx="5" fill="#1e1e1e" stroke="#0f0f0f" strokeWidth="5"/>
+  <rect x="605" y="255" width="90" height="60" rx="2" fill="#4c1d95"/>
+  
+  <!-- Bar area -->
+  <rect x="320" y="350" width="160" height="150" fill="#422006"/>
+  <rect x="330" y="350" width="140" height="20" fill="#854d0e"/>
+  
+  <!-- Bar stools -->
+  <rect x="340" y="510" width="20" height="10" fill="#78350f"/>
+  <rect x="340" y="520" width="20" height="30" fill="#78350f"/>
+  <circle cx="350" cy="500" r="15" fill="#854d0e"/>
+  
+  <rect x="390" y="510" width="20" height="10" fill="#78350f"/>
+  <rect x="390" y="520" width="20" height="30" fill="#78350f"/>
+  <circle cx="400" cy="500" r="15" fill="#854d0e"/>
+  
+  <rect x="440" y="510" width="20" height="10" fill="#78350f"/>
+  <rect x="440" y="520" width="20" height="30" fill="#78350f"/>
+  <circle cx="450" cy="500" r="15" fill="#854d0e"/>
+</svg> 

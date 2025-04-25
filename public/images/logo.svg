@@ -1,0 +1,7 @@
+<svg width="200" height="50" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M10 10H50V40H10V10Z" fill="#0c4a6e"/>
+  <path d="M15 25C15 17.5 25 10 30 15C35 20 25 32.5 15 25Z" fill="#fbbf24"/>
+  <path d="M30 15C35 20 25 32.5 15 25" stroke="#fbbf24" stroke-width="2"/>
+  <text x="60" y="30" font-family="Arial, sans-serif" font-weight="bold" font-size="20" fill="#ffffff">LANDSHARK</text>
+  <text x="60" y="42" font-family="Arial, sans-serif" font-size="10" fill="#fbbf24">SPORTS BAR</text>
+</svg> 

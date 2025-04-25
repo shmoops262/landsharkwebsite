@@ -6,10 +6,12 @@ import { Metadata } from "next";
 import ClientProvider from "@/components/ClientProvider";
 import { ThemeProvider } from "@/components/theme/ThemeProvider";
 import { ThemeAwareToast } from "@/components/theme/ThemeAwareToast";
+import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  title: "",
-  description: "",
+  title: "Landshark Sports Bar",
+  description: "Miami's premier sports bar with great food, drinks, and the best game-day experience",
   icons: {
     icon: "/favicon.ico",
   },
@@ -26,7 +28,13 @@ export default function RootLayout({
         <ThemeProvider defaultTheme="system" enableSystem>
           <ClientProvider>
             <TRPCReactProvider>
-              {children}
+              <div className="flex flex-col min-h-screen">
+                <Header />
+                <main className="flex-grow">
+                  {children}
+                </main>
+                <Footer />
+              </div>
               <ThemeAwareToast />
             </TRPCReactProvider>
           </ClientProvider>
