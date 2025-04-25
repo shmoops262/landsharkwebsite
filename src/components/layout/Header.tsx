@@ -13,7 +13,7 @@ export default function Header() {
         <Link href="/" className="flex items-center">
           <Image 
             src="/images/logo.svg" 
-            alt="Landshark Logo" 
+            alt="Landshark Bar & Grill Logo" 
             width={200} 
             height={50}
             className="h-12 w-auto"

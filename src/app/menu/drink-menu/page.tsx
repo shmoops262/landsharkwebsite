@@ -1,8 +1,8 @@
 import React from 'react';
 
 export const metadata = {
-  title: 'Drink Menu | Landshark Sports Bar',
-  description: 'Explore our extensive drink menu featuring craft cocktails, beers, shots, and our famous Shark Bowls',
+  title: 'Drink Menu | Landshark Bar & Grill',
+  description: 'Explore our extensive drink menu featuring our famous Sharkbowls, craft cocktails, beers, and shots.',
 };
 
 export default function DrinkMenuPage() {
@@ -16,16 +16,16 @@ export default function DrinkMenuPage() {
           <div className="relative h-64 rounded-lg overflow-hidden mb-12 bg-gradient-to-r from-blue-900 to-blue-700">
             <div className="absolute inset-0 flex items-center justify-center">
               <p className="text-white text-xl md:text-2xl font-medium text-center px-6">
-                From craft cocktails to local brews and our famous Shark Bowls, <br />
-                we've got your thirst covered.
+                Our modern twist on the famous Sharkbowl, coming in three different flavors!<br />
+                Specialty cocktails for any time of the day!
               </p>
             </div>
           </div>
           
-          {/* Shark Bowls Section */}
+          {/* Sharkbowls Section */}
           <section className="mb-16">
             <div className="bg-blue-50 p-6 rounded-lg mb-6">
-              <h2 className="text-3xl font-bold text-blue-900 mb-4">Shark Bowls</h2>
+              <h2 className="text-3xl font-bold text-blue-900 mb-4">Famous Sharkbowls</h2>
               <p className="text-blue-800 italic mb-4">
                 Our signature cocktails - perfect for sharing with friends! Served in 32oz souvenir bowl.
               </p>
@@ -72,9 +72,9 @@ export default function DrinkMenuPage() {
             
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white p-4 rounded shadow-sm border border-gray-200">
-                <h3 className="text-xl font-bold text-blue-900">Miami Vice</h3>
+                <h3 className="text-xl font-bold text-blue-900">Spartan Mule</h3>
                 <p className="text-gray-600 mb-2">
-                  Half piña colada, half strawberry daiquiri - the best of both worlds
+                  Our MSU twist on a classic Moscow Mule, with vodka, ginger beer, and a splash of lime
                 </p>
                 <p className="text-blue-900 font-semibold">$12</p>
               </div>
@@ -88,7 +88,7 @@ export default function DrinkMenuPage() {
               </div>
               
               <div className="bg-white p-4 rounded shadow-sm border border-gray-200">
-                <h3 className="text-xl font-bold text-blue-900">Slam Dunk Mojito</h3>
+                <h3 className="text-xl font-bold text-blue-900">Green & White Mojito</h3>
                 <p className="text-gray-600 mb-2">
                   Classic mojito with fresh mint, lime, and a splash of soda
                 </p>
@@ -129,17 +129,17 @@ export default function DrinkMenuPage() {
                 </div>
                 
                 <div className="bg-white p-3 rounded shadow-sm">
-                  <h4 className="text-lg font-bold text-blue-900">Sam Adams</h4>
+                  <h4 className="text-lg font-bold text-blue-900">Founders All Day IPA</h4>
                   <p className="text-blue-900 font-semibold">$7</p>
                 </div>
                 
                 <div className="bg-white p-3 rounded shadow-sm">
-                  <h4 className="text-lg font-bold text-blue-900">Stella Artois</h4>
+                  <h4 className="text-lg font-bold text-blue-900">Bell's Two Hearted</h4>
                   <p className="text-blue-900 font-semibold">$8</p>
                 </div>
                 
                 <div className="bg-white p-3 rounded shadow-sm">
-                  <h4 className="text-lg font-bold text-blue-900">Local IPA (Rotating)</h4>
+                  <h4 className="text-lg font-bold text-blue-900">Michigan Craft (Rotating)</h4>
                   <p className="text-blue-900 font-semibold">$8</p>
                 </div>
               </div>
@@ -203,7 +203,7 @@ export default function DrinkMenuPage() {
             
             <div className="grid gap-6 md:grid-cols-2">
               <div className="bg-white p-4 rounded shadow-sm border border-blue-200">
-                <h3 className="text-xl font-bold text-blue-900">Touchdown</h3>
+                <h3 className="text-xl font-bold text-blue-900">Sparty Shot</h3>
                 <p className="text-gray-600 mb-2">
                   Fireball whiskey and apple pucker
                 </p>
@@ -219,9 +219,9 @@ export default function DrinkMenuPage() {
               </div>
               
               <div className="bg-white p-4 rounded shadow-sm border border-blue-200">
-                <h3 className="text-xl font-bold text-blue-900">Home Run</h3>
+                <h3 className="text-xl font-bold text-blue-900">Go Green</h3>
                 <p className="text-gray-600 mb-2">
-                  Tequila, watermelon pucker, and sweet & sour
+                  Tequila, melon liqueur, and sweet & sour
                 </p>
                 <p className="text-blue-900 font-semibold">$8</p>
               </div>

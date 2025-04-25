@@ -12,10 +12,10 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Reach Out</h3>
             <a 
-              href="tel:+15551234567" 
+              href="tel:+15175745033" 
               className="text-lg hover:text-yellow-300 transition"
             >
-              (555) 123-4567
+              (517) 574-5033
             </a>
           </div>
           
@@ -23,8 +23,8 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Our Location</h3>
             <address className="not-italic">
-              123 Sports Ave<br />
-              Miami, FL 33101
+              101 East Grand River Road<br />
+              East Lansing, MI 48823
             </address>
           </div>
           
@@ -52,7 +52,7 @@ export default function Footer() {
         </div>
         
         <div className="mt-8 pt-8 border-t border-blue-800 text-center">
-          <p>&copy; {new Date().getFullYear()} Landshark Sports Bar. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Landshark Bar & Grill. All rights reserved.</p>
         </div>
       </div>
     </footer>
