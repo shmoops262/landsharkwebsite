@@ -37,7 +37,7 @@ export default function GalleryPage() {
     );
   };
   
-  const goToSlide = (index) => {
+  const goToSlide = (index: number) => {
     setCurrentIndex(index);
   };
   
