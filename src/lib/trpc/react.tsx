@@ -3,7 +3,7 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import {
   loggerLink,
-  httpBatchStreamLink,
+  httpBatchLink,
   createWSClient,
   wsLink,
   splitLink,
@@ -56,7 +56,7 @@ export function TRPCReactProvider(props: { children: React.ReactNode }) {
             client: wsClient!,
             transformer: SuperJSON,
           }),
-          false: httpBatchStreamLink({
+          false: httpBatchLink({
             transformer: SuperJSON,
             url: getBaseUrl() + "/api/trpc",
             headers: () => {
